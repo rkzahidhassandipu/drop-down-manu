@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("bg.jpg") no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: rgb(17, 163, 17);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 10px;
+    text-align: center;
+}
+.drop-down ul{
+    display: inline-flex;
+    list-style: none;
+}
+.drop-down ul li{
+
+}
+.drop-down ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: monospace;
+    padding: 10px 20px;
+}
+.drop-down ul li a:hover{
+    background-color: #32c932;
+    border-radius: 5px;
+}
+.drop-down ul li .menu-bar{
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    text-align: left;
+}
+.drop-down ul li .menu-bar li a{
+    display: block;
+}
+.drop-down ul li .menu-bar, 
+.drop-down ul li .menu-bar li .menu-bar1{
+    background: rgb(17, 163, 17);
+    position: absolute;
+    margin: 10px 0px;
+    display: none;
+}
+
+.drop-down ul li:hover .menu-bar,
+.drop-down ul li .menu-bar li:hover .menu-bar1{
+    display: block;
+}
+.drop-down ul li .menu-bar li .menu-bar1{
+    margin: 0px 0px 0px 103px;
+    padding: 10px;
+}
